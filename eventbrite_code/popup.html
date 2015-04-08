@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Eventbrite</title>
+	<link rel="stylesheet" type="text/css" href="css/popup.css">
+</head>
+<body>
+	<div id="extension">
+		<div id="fixed">
+			<div id="header">
+				<img src="images/logo_span.png" alt="Eventbrite" style="width:100%">
+			</div>
+
+			<div id="location"><img class="yourLocation" src="images/geolocation.png" alt="your location">
+				<input id="city-name" type="text" placeholder="City">
+				<input id="state-abbrev" type="text" placeholder="State">
+			</div>
+
+			<div id="button">
+			<button id="findEvents">Find Events!</button>
+			</div>
+
+			<ul id="eventList">
+			</ul>
+
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/moment.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+***************************
+Margaret Feltz
+3/23/2015
+***************************
+
+Chrome Extension built with Eventbrite API for interview challenge.
+
+Enter your desired city and state to view events near you!
+
+By searchin the JSON for the key words of the venue city
+and venue region, the relevant events specific to the city and
+state entered are rendered in a list. Each event displays the
+title, it's icon, the date, and a truncated description of the
+event. 

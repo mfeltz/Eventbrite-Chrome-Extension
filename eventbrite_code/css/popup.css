@@ -1,0 +1,89 @@
+@font-face {
+	font-family: Gravity-Book;
+	src: url("../Gravity-Book.ttf");
+}
+body {
+	height: 600px;
+	width: 400px;
+	background-color: #FAE7DE;
+	position: relative;
+	font-family: "Gravity-Book"
+}
+
+#extension{
+	width: 100%;
+	height: 100%;
+}
+#fixed{
+}
+
+.yourLocation{
+	width: 20px;
+}
+
+input {
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
+#findEvents{
+	margin: 10px;
+}
+
+#eventList{
+	height: 350px;
+	display: none;
+	overflow: scroll;
+	list-style-type: none;
+	padding: 5px;
+	width: 90%;
+}
+ 
+li.eventItem {
+	height: 150px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 2px;
+}
+
+/* LOGO IMAGE */
+#logo_img{
+	height: 55px;
+	width: 55px;
+}
+#title {
+	font-size: 18px;
+}
+#logo_img, #theDate, #description, #title{
+	display: inline-block;
+}
+#nameDiv{
+	vertical-align: top;
+	float: right;
+}
+#nameDiv:link, #nameDiv:hover,#nameDiv:visited, #nameDiv:active{
+	color: black;
+}
+#theDate{
+	margin: 1px;
+	font-size: 12px;
+	float: right;
+}
+
+#description{
+	margin: 2px 0;
+}
+
+
